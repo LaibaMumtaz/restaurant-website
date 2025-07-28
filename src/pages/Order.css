@@ -1,0 +1,115 @@
+.order-page {
+  padding: 40px 20px;
+  background-color: #fffdf7;
+  text-align: center;
+}
+
+.order-page h1 {
+  font-family: 'Pacifico', cursive;
+  color: #ff4e50;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.order-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.order-menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+  flex: 2;
+}
+
+.order-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.order-card:hover {
+  transform: translateY(-5px);
+}
+
+.order-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.order-card h3 {
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.order-card p {
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.order-card button {
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.order-card button:hover {
+  background-color: #ff4e50;
+}
+
+.order-cart {
+  background-color: #fff0e6;
+  padding: 20px;
+  border-radius: 20px;
+  min-width: 300px;
+  flex: 1;
+  text-align: left;
+}
+
+.order-cart h2 {
+  margin-bottom: 15px;
+  color: #ff7e5f;
+}
+
+.order-cart ul {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.order-cart li {
+  margin-bottom: 10px;
+  color: #444;
+}
+
+.order-cart button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 12px;
+  background-color: #ff7e5f;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.order-cart button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
